@@ -1,0 +1,28 @@
+
+Diversos formatos podem ser usados para armazenar uma imagem digital: bmp, jpeg, gif, tif, tga etc. Neste curso usaremos o formato IRIS RGB, criado pela Silicon Graphics. As funções que permitem a leitura de arquivos RGB e seus respectivos protótipos estão implementados nos arquivos image.c e image.h.
+
+
+
+Para compilar e executar o programa armario_simples.c, salve-o juntamente com os arquivo Makefile.modelagem, image.c, image.h e montanhas.rgb em um diretório e execute a seguinte seqüência de comandos:
+
+$ make -f Makefile.modelagem armario_simples
+$ ./armario_simples
+
+
+O programa usado para modelar o avião é mostrado no Exemplo 5-1. As teclas LEFT e RIGHT servem para rotacionar a posição do observador em torno do eixo y contra e a favor do sentido dos ponteiros do relógio, respectivamente. A distância entre o observador e o centro de rotação (raio de observação) é alterado pelas teclas r e R, que aumentam o diminuem o seu valor, respectivamente. As teclas UP e DOWN, controlam a altitude do observador (no eixo y). A tecla t habilita ou desabilita o uso de texturas. Para finalizar o programa, basta digitar ESC. As teclas e suas respectivas ações estão definidas nas funções keyboard() e special().
+
+Exemplo 5-2. programa jato.c
+
+
+
+
+Para compilar e executar o programa jato.c, salve-o juntamente com os arquivo Makefile.modelagem, image.c, image.h, montanhas.rgb e camuflagem.rgb em um diretório e execute a seguinte seqüência de comandos:
+
+$ make -f Makefile.modelagem jato
+$ ./jato
+
+
+
+https://www.ft.unicamp.br/~magic/opengl/modelagem-jato.html
+
+

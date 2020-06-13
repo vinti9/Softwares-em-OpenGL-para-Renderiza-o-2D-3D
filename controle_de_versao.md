@@ -121,9 +121,9 @@ A melhor forma de visualizar os relatórios é através da interface gráfica do
 
 Próximo: aula 4
 
-https://www.youtube.com/watch?v=dRV13jZqhU0&list=PLInBAd9OZCzzHBJjLFZzRl6DgUmOeG3H0&index=4
+- https://www.youtube.com/watch?v=dRV13jZqhU0&list=PLInBAd9OZCzzHBJjLFZzRl6DgUmOeG3H0&index=4
 
-
+- https://www.youtube.com/watch?v=8j9NEW2A2xY
 
 
 

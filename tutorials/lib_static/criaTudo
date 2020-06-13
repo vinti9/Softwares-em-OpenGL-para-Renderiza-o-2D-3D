@@ -1,0 +1,26 @@
+#!/bin/bash
+
+# chmod +x comando.sh
+
+name1="_mylib.o"
+name2="_mylib.a"
+
+echo -e "Cria o arquivo objeto da biblioteca: ${name1}\n"
+
+gcc -c lib_mylib.c -o lib_mylib.o 
+
+echo -e "Cria a biblioteca: ${name2}\n"
+
+ar rcs lib_mylib.a lib_mylib.o 
+
+echo -e "Compila o programa c usando a biblioteca\n"
+
+gcc -c driver.c -o driver.o
+
+echo -e ".L -> biblioteca no diretorio atual (aqui)\n"
+
+gcc -o driver driver.o -L. -l_mylib
+
+echo $'Executando o program: \n'
+
+./driver 

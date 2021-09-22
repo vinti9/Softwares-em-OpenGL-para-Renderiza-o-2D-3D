@@ -1,4 +1,4 @@
-# SoftWares OpenGl
+# Softwares OpenGl
 
 Projeto de OpenGl criado pelos seguintes autores:
 

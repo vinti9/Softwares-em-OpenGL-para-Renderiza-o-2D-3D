@@ -1,6 +1,6 @@
 # Softwares OpenGl
 
-Projeto de OpenGl criado pelos seguintes autores:
+Softwares em OpenGl criado pelos seguintes autores:
 
 - Professor Sérgio Apolinário em conjunto com os estudantes de doutorado Everton Lima.
 
